@@ -70,6 +70,14 @@ p {
    display: block;
 }
 
+#slide1:checked ~ .pagination label[for="slide1"],
+#slide2:checked ~ .pagination label[for="slide2"],
+#slide3:checked ~ .pagination label[for="slide3"],
+#slide4:checked ~ .pagination label[for="slide4"] {
+  background-color: #25282A;
+  border: .15rem solid #71A5F1;
+}
+
 .pagination {
   display: inline-flex;
   justify-content: flex-end;
